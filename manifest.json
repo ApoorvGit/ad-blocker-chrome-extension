@@ -1,0 +1,13 @@
+{
+    "name": "Ad Blocker", 
+    "description": "Blocks ads on any website",
+    "manifest_version": 2,
+    "version": "1.01", 
+    "background": {
+        "scripts": ["blockedsites.js", "script.js"]
+    },
+    "icons": {
+        "128"   : "logo.PNG"
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"]
+}
